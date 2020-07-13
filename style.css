@@ -36,10 +36,14 @@ body{
     padding-right: 35vw;*/
 }
 
-#li{
+li{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 h3{
     font-size: 32px;
 }
+#disclaimer{
+    font-size: x-small;
+}
+
