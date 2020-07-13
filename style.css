@@ -1,6 +1,10 @@
 
 #tribute-info{
-    background-color: aquamarine;
+    
+    margin: auto;
+    max-width: 700px;
+    text-align: left;
+    
 }
 
 body{
@@ -12,14 +16,27 @@ body{
     background-color: burlywood;
 }
 
+#img-flex{
+    width: 50%;
+    margin: auto;
+}
+
 #img-div{
     background-color: beige;
-    
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #image{
+    max-width: 100%;
     display: block;
-    max-width: 25%;
-    padding-left:  655px;
-    padding-right: 655px;
+/*    padding-left:  35.1vw;
+    padding-right: 35vw;*/
+}
+
+#li{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
